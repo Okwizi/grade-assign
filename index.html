@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Grade Calculator</title>
+</head>
+<style>
+    .p1{
+        text-align: center;
+        padding-left: 30px;
+        max-width: 100%;
+    }
+</style>
+<body>
+    <h1>Grade Calculator by Okwizi</h1>
+    <p class="p1">This is a simple calculator that accepts marks separated by commas and gives the average marks, grade and comments.</p>
+    <p class="p1">Please input numerical numbers separated by commas.</p>
+    <form id="gradeForm">
+        <label for="marks">Enter marks for 8 subjects (0-100):</label><br>
+        <input type="text" id="marks" name="marks" required><br><br>
+        <button type="button" onclick="calculateGrade()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="./index.js"></script>
+    <script>
+        const calculator = new GradeCalculator();
+
+        function calculateGrade() {
+            calculator.calculateGrade();
+        }
+    </script>
+    <br><br>
+    <hr>
+
+    <!--Extra-->
+    <h1>Other products by Okwizi</h1>
+    <p>I also make music!! Check my work out <a href="http://linktr.ee/okwizi" target="_blank"><b>HERE</b></a>.</p>
+
+    <footer>
+        <div>Submission by Okwizi!</div>
+        <div>Copyright Okwizi2023</div>
+    </footer>
+</body>
+</html>
