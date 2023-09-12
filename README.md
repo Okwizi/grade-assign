@@ -1,4 +1,4 @@
-### Grade Calculator *V 0.1*
+### Grade Calculator *V 1.0*
 #### By Okwizi
 This is a site that accepts the calculations of 8 subjects, calculates the average, and displays the results of the average.
 This repo contains the `.html`,`.css`, and `.js` files used to create the site which can be accessed [HERE](https://okwizi-grade-calculator.netlify.app).
